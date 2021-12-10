@@ -208,3 +208,33 @@ img {
          column-gap: 2rem;
      }
  }
+ /* cursos */
+.curso {
+    padding: 2rem;
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+
+}
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns:  1fr 2fr ;
+        column-gap: 2rem;
+    }
+}
+.curso:last-of-type {
+    border: none;
+    margin: 0;
+}
+
+.curso:last-of-type {
+    border: none;
+    margin: 0;
+}
+.curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+.curso__inf{
+    font-weight: normal;
+}
